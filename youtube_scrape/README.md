@@ -11,8 +11,7 @@ To make a playlist:
     
     cd ~
     git clone git@github.com:NeuroLexDiagnostics/tribe3_emotions.git
-    cd tribe3_emotions
-    cd youtube_scrape 
+    cd tribe3_emotions/youtube_scrape 
     python3 make_playlist.py
     what is the playlist id?
     ...
@@ -26,7 +25,7 @@ Note that you can search by playlist in youtube. Also, the playlist id is the id
 Once you make a playlist, you can easily download it by:
 
     cd ~ 
-    cd youtube_scrape
+    cd train_emotions/youtube_scrape
     python3 download_playlist.py 
     
 This will then download the playlist and format it according to the style needed to train emotion detection models with train_emotions library.
