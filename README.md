@@ -8,7 +8,7 @@ This is a repository dedicated for training machine learning models for voice fi
 
 We plan to do slack updates every week 8 PM EST on Fridays. If we need to do a work session, we will arrange for that. Active members of the team working on this repo include:
 
-* Bineeta Gupta (TRIBE 3 Fellow, Arizona State University) 
+* Bineeta Gupta (Arizona State University) 
 * Luke Lyon (Boulder, CO)
 * Anwar Akkari (Yale University) 
 * Jim Schwoebel (Boston, MA) 
