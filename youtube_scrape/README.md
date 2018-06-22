@@ -10,6 +10,8 @@ This is good for emotional labels (angry, happy, sad, etc.) to be further proces
 To make a playlist:
     
     cd ~
+    git clone git@github.com:NeuroLexDiagnostics/tribe3_emotions.git
+    cd tribe3_emotions
     cd youtube_scrape 
     python3 make_playlist.py
     what is the playlist id?
