@@ -43,6 +43,13 @@ If you would like to make a new dataset, please check out the sub-repository cal
 
 We can download the videos and extract features for you if you provide us the playlist URLs.
 
+## Places to publish?? 
+
+There are a few places we could publish this work. Here are the submission deadlines. 
+| Conference | Location | Deadline to submit | Description | 
+|----|----|-----|-------|
+|[Interspeech](https://www.isca-speech.org/iscaweb/index.php/conferences/interspeech) | Austria | TBA | Crossroads of Speech and Language|
+
 ## References 
 * [librosa](https://github.com/librosa/librosa)
 * [spacy](https://spacy.io/)
