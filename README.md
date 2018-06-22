@@ -39,7 +39,7 @@ TBA, will post more about this this weekend.
 
 ## Making new datasets 
 
-If you would like to make a new dataset, please check out the sub-repository called [youtube_scrape](https://github.com/NeuroLexDiagnostics/train-emotions/tree/master/youtube_scrape). You can browser through existing links that we used for training videos in the past in the playlist folder of that repo. Instructions also are there for how to make new playlists. 
+If you would like to make a new dataset, please check out the sub-repository called [youtube_scrape](https://github.com/NeuroLexDiagnostics/train-emotions/tree/master/youtube_scrape). You can browse through existing links that we used for training videos in the past in the playlist folder of that repo. Instructions also are there for how to make new playlists. 
 
 We can download the videos and extract features for you if you provide us the playlist URLs.
 
