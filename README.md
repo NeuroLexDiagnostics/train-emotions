@@ -1,14 +1,19 @@
 # tribe3_emotions
 
-Repo for TRIBE 3 emotion dataset training. 
+This is a repository dedicated for training machine learning models for voice files with emotions (angry, disgust, fear, happy, neutral, or surprised) from video files downloaded from Youtube.
+
+![](https://media.giphy.com/media/3o6nUNpJn4VznakjKM/giphy.gif)
 
 ## Weekly meeting time 
 
-We plan to do slack updates every week 8 PM EST on Fridays. If we need to do a work session, we will arrange for that.
+We plan to do slack updates every week 8 PM EST on Fridays. If we need to do a work session, we will arrange for that. Active members of the team working on this repo include:
+
+* Bineeta Gupta (TRIBE 3 Fellow, Arizona State University) 
+* Luke Lyon (Boulder, CO)
+* Anwar Akkari (Yale University) 
+* Jim Schwoebel (Boston, MA) 
 
 ## Goal / summary or prior models (how they were formed)  
-
-Will post here this weekend.
 
 ## Dataset summary 
 
