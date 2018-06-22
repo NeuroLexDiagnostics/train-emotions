@@ -19,6 +19,8 @@ To make a playlist:
 
 This then makes a playlist from all the playlist ids. Note that only the first 100 in each playlist will be added to the playlist. Also, don't worry about duplicate video links in similar playlists (e.g. cnn videos); we take care of this by making sure no duplicate links go into the playlist. 
 
+Note that you can search by playlist in youtube. Also, the playlist id is the id part of the URL (https://www.youtube.com/watch?v=ZqZ3CwQqeNc&list=PLA64498EB9B1CBF95, PLA64498EB9B1CBF95 = playlist ID).
+
 ## downloading playlists generated 
 
 Once you make a playlist, you can easily download it by:
