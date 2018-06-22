@@ -1,4 +1,4 @@
-# tribe3_emotions
+# Train emotions
 
 This is a repository dedicated for training machine learning models for voice files with emotions (angry, disgust, fear, happy, neutral, or surprised) from video files downloaded from Youtube.
 
@@ -33,13 +33,15 @@ Here are some goals to try to beat with demo projects. Below are some example fi
 
 TBA, will post more about this this weekend. 
 
-## Downloading data
+## Downloading datasets
 
 TBA, will post more about this this weekend. 
 
 ## Making new datasets 
 
-TBA, will post more about this this weekend. 
+If you would like to make a new dataset, please check out the sub-repository called youtube_scrape. You can browser through existing links that we used for training videos in the past in the playlist folder of that repo. Instructions also are there for how to make new playlists. 
+
+We can download the videos and extract features for you if you provide us the playlist URLs.
 
 ## References 
 * [librosa](https://github.com/librosa/librosa)
