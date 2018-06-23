@@ -4,14 +4,18 @@ This is a repository dedicated for training machine learning models for voice fi
 
 ![](https://media.giphy.com/media/3o6nUNpJn4VznakjKM/giphy.gif)
 
-## Weekly meeting time 
+## Team members
 
-We plan to do slack updates every week 8 PM EST on Fridays. If we need to do a work session, we will arrange for that. Active members of the team working on this repo include:
+Active members of the team working on this repo include:
 
 * Bineeta Gupta (Arizona State University) 
 * Luke Lyon (Boulder, CO)
 * Anwar Akkari (Yale University) 
 * Jim Schwoebel (Boston, MA) 
+
+## Meeting times 
+
+We plan to do slack updates every week 8 PM EST on Fridays. If we need to do a work session, we will arrange for that. 
 
 ## Goal / summary or prior models (how they were formed)  
 
