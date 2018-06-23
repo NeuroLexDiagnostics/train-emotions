@@ -31,11 +31,13 @@ Here are some goals to try to beat with demo projects. Below are some example fi
 
 ## Dataset summary 
 
-TBA, will post more about this this weekend. 
+The data is arranged in these folders: angry, disgust, fear, happpy, neutral, sad, surprise. Each wav file has a corresponding .json file with a transcript and features. The feature array in the .json file contains audio features (like mfcc coefficients and their deltas), as well as text features like part of speech tags. This is the standard mixed NeuroLex feature embedding. 
 
-## Downloading datasets
+## Downloading the data
 
-TBA, will post more about this this weekend. 
+Make sure you have roughly 15 GB of free space on your hard disk.
+
+Once you know you have this much space, you can download the dataset by clicking [this link](https://drive.google.com/open?id=1CA_9LR8q9npnmfCFcwtrdjB-kDN9g2QD). After you click on it, the download should start. This could take a while based on your internet connection.
 
 ## Making new datasets 
 
