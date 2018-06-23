@@ -29,15 +29,17 @@ Here are some goals to try to beat with demo projects. Below are some example fi
 | happy_sad_neutral.pickle	| pos, spectral | 0.4698875525	| 0.02512849173	| logistic regression |
 | all_emotions.pickle | character, pos, polarity, onset, rhythm, spectral |	0.2875083655	| 0.0358943377 |	knn | 
 
-## Dataset summary 
-
-The data is arranged in these folders: angry, disgust, fear, happpy, neutral, sad, surprise. Each wav file has a corresponding .json file with a transcript and features. The feature array in the .json file contains audio features (like mfcc coefficients and their deltas), as well as text features like part of speech tags. This is the standard mixed NeuroLex feature embedding. 
-
 ## Downloading the data
 
 Make sure you have roughly 15 GB of free space on your hard disk.
 
-Once you know you have this much space, you can download the dataset by clicking [this link](https://drive.google.com/open?id=1CA_9LR8q9npnmfCFcwtrdjB-kDN9g2QD). After you click on it, the download should start. This could take a while based on your internet connection.
+Once you know you have this much space, you can download the dataset by clicking [this link](https://drive.google.com/open?id=1CA_9LR8q9npnmfCFcwtrdjB-kDN9g2QD). After you click on the link go to the top right corner of the page and click download (the icon with the down arrow). After this, the download should start. This could take a while based on your internet connection.
+
+## Dataset summary / feature array 
+
+The data is arranged in these folders: angry, disgust, fear, happpy, neutral, sad, surprise. Each wav file has a corresponding .json file with a transcript and features. The feature array in the .json file contains audio features (like mfcc coefficients and their deltas), as well as text features like part of speech tags. This is the standard mixed NeuroLex feature embedding. 
+
+Feel free to make your own feature arrays to model the data; these are just here for guidance in case you don't feel comfortable making your own features and/or if you'd like to test this feature array vs. other feature arrays that you custom engineer. 
 
 ## Making new datasets 
 
