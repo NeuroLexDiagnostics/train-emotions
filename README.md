@@ -46,9 +46,10 @@ We can download the videos and extract features for you if you provide us the pl
 ## Places to publish?? 
 
 There are a few places we could publish this work. Here are the submission deadlines. 
-| Conference | Location | Deadline to submit | Description | 
-| ------------- | ------------- |------------- |------------- |
-|[Interspeech](https://www.isca-speech.org/iscaweb/index.php/conferences/interspeech) | Austria | TBA | Crossroads of Speech and Language|
+
+| Conference  | Location |  Deadline to submit | Description | 
+| ------------- | ------------- | ------------- | ------------- |
+| [Interspeech](https://www.isca-speech.org/iscaweb/index.php/conferences/interspeech) | Austria | TBA | Crossroads of Speech and Language|
 
 ## References 
 * [librosa](https://github.com/librosa/librosa)
