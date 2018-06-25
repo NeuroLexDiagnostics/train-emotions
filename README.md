@@ -12,6 +12,7 @@ Active members of the team working on this repo include:
 * Luke Lyon (Boulder, CO)
 * Anwar Akkari (Yale University) 
 * Jim Schwoebel (Boston, MA) 
+* Shivani Reddy (Clemson University) 
 
 ## Meeting times 
 
