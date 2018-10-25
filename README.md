@@ -9,7 +9,7 @@ This is a repository dedicated for training machine learning models for voice fi
 Active members of the team working on this repo include:
 
 * Bineeta Gupta (Arizona State University) 
-* Luke Lyon (Boulder, CO)
+* Luke Lyon (University of Colorado - Boulder, CO)
 * Anwar Akkari (Yale University) 
 * Jim Schwoebel (Boston, MA) 
 * Shivani Reddy (Clemson University) 
@@ -36,13 +36,13 @@ Here are some goals to try to beat with demo projects. Below are some example fi
 
 ## Downloading the data
 
-Make sure you have roughly 15 GB of free space on your hard disk.
+Make sure you have roughly 24 GB of free space on your hard disk.
 
 Once you know you have this much space, you can download the dataset by clicking [this link](https://drive.google.com/open?id=1CA_9LR8q9npnmfCFcwtrdjB-kDN9g2QD). After you click on the link go to the top right corner of the page and click download (the icon with the down arrow). After this, the download should start. This could take a while based on your internet connection.
 
 ## Dataset summary / feature array 
 
-The data is arranged in these folders: angry, disgust, fear, happpy, neutral, sad, surprise. Each wav file has a corresponding .json file with a transcript and features. The feature array in the .json file contains audio features (like mfcc coefficients and their deltas), as well as text features like part of speech tags. This is the standard mixed NeuroLex feature embedding. 
+The data is arranged in three folders: Audio, emotion_train_set, and training_audio_files. The file emotionsDfV1.csv is the result of running MFCC analysis on the emotion_train_set data. The file allemotions.csv is the result of running MFCC analysis on the training_audio_files. It is recommended that you download the allemotions.csv file if you want to train a model yourself. 
 
 Feel free to make your own feature arrays to model the data; these are just here for guidance in case you don't feel comfortable making your own features and/or if you'd like to test this feature array vs. other feature arrays that you custom engineer. 
 
