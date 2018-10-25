@@ -73,6 +73,14 @@ The most accurate model tested is called model_v5.h5. Results from training this
 
 ## Comparison of results to goal
 
+One goal of this project was to beat prior models' performances. The model "model_v5.h5" was trained for accuracy in correctly identifying all emotions. 
+
+| Model | Feature embedding | Accuracy | Modeltype|
+| --- | --- | --- | --- |
+| all_emotions.pickle | character, pos, polarity, onset, rhythm, spectral | 28.75% | knn |
+| model_v5.h5 | spectral | 87.36% | Keras Sequential Neural Network |
+
+With an increase in accuracy of 58.61%, the Keras Sequential model thoroughly out-performs NeuroLex's current all-emotion detection. 
 
 
 ## References 
