@@ -44,17 +44,9 @@ Once you know you have this much space, you can download the dataset by clicking
 
 The data is arranged in three folders: Audio, emotion_train_set, and training_audio_files. The file emotionsDfV1.csv is the result of running MFCC analysis on the emotion_train_set data. The file allemotions.csv is the result of running MFCC analysis on the training_audio_files. It is recommended that you only download the allemotions.csv file if you want to train a model yourself.
  
-Feel free to make your own feature arrays to model the data; these are just here for guidance in case you don't feel comfortable making your own features and/or if you'd like to test this feature array vs. other feature arrays that you custom engineer. 
-
-## Making new datasets 
-
-If you would like to make a new dataset, please check out the sub-repository called [youtube_scrape](https://github.com/NeuroLexDiagnostics/train-emotions/tree/master/youtube_scrape). You can browse through existing links that we used for training videos in the past in the playlist folder of that repo. Instructions also are there for how to make new playlists. 
-
-We can download the videos and extract features for you if you provide us the playlist URLs.
-
 ## Summary of results
 
-The most accurate model tested is called model_v5.h5. Results from this model are shown below.
+The most accurate model tested is called model_v5.h5. Results from training this model are shown below.
 
 | Training Epoch | Training Accuracy | Training Loss | Validation Accuracy | Validation Loss |
 | --- | --- | --- | --- | --- |
@@ -78,6 +70,10 @@ The most accurate model tested is called model_v5.h5. Results from this model ar
 | 90 | 90.08% | 26.63% | 88.51% | 35.59% |
 | 95 | 89.90% | 26.53% | 87.64% | 33.43% |
 | 100 | 91.30% | 25.00% | 87.36% | 36.27% |
+
+## Comparison of results to goal
+
+
 
 ## References 
 * [librosa](https://github.com/librosa/librosa)
