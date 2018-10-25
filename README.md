@@ -57,6 +57,7 @@ We can download the videos and extract features for you if you provide us the pl
 The most accurate model tested is called model_v5.h5. Results from this model are shown below.
 
 | Training Epoch | Accuracy | Loss |
+| --- | --- | --- |
 | 5 | 68.97% | 0.8570 |
 | 10 | 77.87% | 0.6135 |
 | 15 | 82.18% | 0.5466 |
