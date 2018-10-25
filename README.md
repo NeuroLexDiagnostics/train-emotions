@@ -42,8 +42,8 @@ Once you know you have this much space, you can download the dataset by clicking
 
 ## Dataset summary / feature array 
 
-The data is arranged in three folders: Audio, emotion_train_set, and training_audio_files. The file emotionsDfV1.csv is the result of running MFCC analysis on the emotion_train_set data. The file allemotions.csv is the result of running MFCC analysis on the training_audio_files. It is recommended that you download the allemotions.csv file if you want to train a model yourself. 
-
+The data is arranged in three folders: Audio, emotion_train_set, and training_audio_files. The file emotionsDfV1.csv is the result of running MFCC analysis on the emotion_train_set data. The file allemotions.csv is the result of running MFCC analysis on the training_audio_files. It is recommended that you only download the allemotions.csv file if you want to train a model yourself.
+ 
 Feel free to make your own feature arrays to model the data; these are just here for guidance in case you don't feel comfortable making your own features and/or if you'd like to test this feature array vs. other feature arrays that you custom engineer. 
 
 ## Making new datasets 
@@ -52,13 +52,21 @@ If you would like to make a new dataset, please check out the sub-repository cal
 
 We can download the videos and extract features for you if you provide us the playlist URLs.
 
-## Places to publish?? 
+## Summary of results
 
-There are a few places we could publish this work. Here are the submission deadlines. 
+The most accurate model tested is called model_v5.h5. Results from this model are shown below.
 
-| Conference  | Location |  Deadline to submit | Description | 
-| ------------- | ------------- | ------------- | ------------- |
-| [Interspeech](https://www.isca-speech.org/iscaweb/index.php/conferences/interspeech) | Austria | TBA | Crossroads of Speech and Language|
+| Training Epoch | Accuracy | Loss |
+| 5 | 68.97% | 0.8570 |
+| 10 | 77.87% | 0.6135 |
+| 15 | 82.18% | 0.5466 |
+| 20 | 84.48% | 0.4562 |
+| 25 | 82.47% | 0.4675 |
+| 30 | 84.48% | 0.4041 |
+| 35 | 79.60% | 0.5719 |
+| 40 | 86.21% | 0.3651 |
+| 45 | 86.49% | 0.3385 |
+| 50 | 86.49% | 0.3593 |
 
 ## References 
 * [librosa](https://github.com/librosa/librosa)
