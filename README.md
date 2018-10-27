@@ -38,7 +38,7 @@ Here are some goals to try to beat with demo projects. Below are some example fi
 
 Make sure you have roughly 24 GB of free space on your hard disk.
 
-Once you know you have this much space, you can download the dataset by clicking [this link](https://drive.google.com/open?id=1CA_9LR8q9npnmfCFcwtrdjB-kDN9g2QD). After you click on the link go to the top right corner of the page and click download (the icon with the down arrow). After this, the download should start. This could take a while based on your internet connection.
+Once you know you have this much space, you can download the dataset by clicking [this link](https://drive.google.com/open?id=1aWr0AsvYm2okmirbUqy4Ql2xQgEuyDzf). After you click on the link go to the top right corner of the page and click download (the icon with the down arrow). After this, the download should start. This could take a while based on your internet connection.
 
 ## Dataset summary / feature array 
 
