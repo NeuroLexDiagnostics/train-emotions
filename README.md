@@ -8,11 +8,8 @@ This is a repository dedicated for training machine learning models for voice fi
 
 Active members of the team working on this repo include:
 
-* Bineeta Gupta (Arizona State University) 
-* Luke Lyon (University of Colorado - Boulder, CO)
-* Anwar Akkari (Yale University) 
-* Jim Schwoebel (Boston, MA) 
-* Shivani Reddy (Clemson University) 
+* Luke Lyon (University of Colorado - Boulder, CO) - data scientist
+* Jim Schwoebel (Boston, MA) - advisor
 
 ## Meeting times 
 
@@ -79,8 +76,6 @@ One goal of this project was to beat prior models' performances. The model "mode
 | --- | --- | --- | --- |
 | all_emotions.pickle | character, pos, polarity, onset, rhythm, spectral | 28.75% | knn |
 | model_v5.h5 | spectral | 87.36% | Keras Sequential Neural Network |
-
-With an increase in accuracy of 58.61%, the Keras Sequential model thoroughly out-performs NeuroLex's current all-emotion detection. 
 
 
 ## References 
